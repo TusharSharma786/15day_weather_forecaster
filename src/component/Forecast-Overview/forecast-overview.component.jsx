@@ -9,11 +9,12 @@ const ForecastOverview = ({data,city}) => {
     return (
         <div>
             <h1 id="contents">{city}</h1>
-            {
-                data === null ? (
+            {data &&
+                data.length === 0 ? (
                     <p></p>
                 ) : (
                     <ForecastImages data = {data}/>
+                )
                 )
             }
             {data &&
