@@ -1,0 +1,14 @@
+#items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+#contents {
+    color: white;
+}
+
+#body {
+    width:12%;
+}
