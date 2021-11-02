@@ -10,7 +10,7 @@ const ForecastOverview = ({data,city}) => {
         <div>
             <h1 id="contents">{city}</h1>
             {data &&
-                data.length === 0 ? (
+                (data.length === 0 ? (
                     <p></p>
                 ) : (
                     <ForecastImages data = {data}/>
