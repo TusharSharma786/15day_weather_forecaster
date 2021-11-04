@@ -1,0 +1,16 @@
+#forecast-item {
+    width: 100%;
+    height: 20em;
+    background-color: #a2edd6;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 7.5px 15px;
+    overflow:hidden;
+  }
+
+#content {
+    color: black;
+}

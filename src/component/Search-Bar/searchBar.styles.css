@@ -1,0 +1,11 @@
+#beforeSearch {
+    margin-top: 6em;
+}
+
+#afterSearch {
+    margin-top: 0em;
+}
+
+.search {
+    font-size: 2em;
+}

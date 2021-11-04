@@ -1,0 +1,23 @@
+#image {
+    background-repeat: 'no-repeat';
+    background-size: 'contain';
+    height: '300px';
+    margin-left: '40em';
+    margin-bottom: '1em';
+}
+
+#status {
+    position: absolute;
+    top: 12em;
+    left: 47em;
+    font-size: 25px;
+}
+
+#details {
+    position: absolute;
+    top: 7em;
+    left: 23em;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
