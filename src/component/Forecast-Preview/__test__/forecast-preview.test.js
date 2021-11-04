@@ -55,6 +55,6 @@ it('renders the ouput in UI',()=>{
     expect(getByText("Max. temp.- 30.3")).toBeTruthy();
     expect(getByText("Curr. temp.- 25.5")).toBeTruthy();
     expect(getByText("Low temp.- 20.9")).toBeTruthy();
-    expect(getByText("Wind speed- 3")).toBeTruthy();
+    expect(getByText("Wind speed- 3mph")).toBeTruthy();
     expect(getByText("Direction- south-southwest")).toBeTruthy();
 })
