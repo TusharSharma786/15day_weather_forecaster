@@ -12,3 +12,10 @@
 #body {
     width:12%;
 }
+
+#heading {
+    margin-left: 1em;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}

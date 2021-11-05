@@ -8,14 +8,15 @@
 
 #status {
     position: absolute;
-    top: 12em;
+    top: 16em;
     left: 47em;
     font-size: 25px;
+    color: white;
 }
 
 #details {
     position: absolute;
-    top: 7em;
+    top: 4em;
     left: 23em;
     font-size: 25px;
     color: white;

@@ -8,20 +8,20 @@ import ForecastImageDetail from '../Forecast-image-detail/forecast-image-detail.
 
 import './forecast-images.styles.css';
 
-const ForecastImages = ({data}) => {
+const ForecastImages = ({data,city1}) => {
     return (
         <div>
             {
                 data[0].weather.description.includes('cloud') ? (
-                    <ForecastImageDetail image={image4} data={data}/>
+                    <ForecastImageDetail image={image4} data={data} city1={city1}/>
                 ):(
                     data[0].weather.description.includes('snow') ? (
-                        <ForecastImageDetail image={image3} data={data}/>
+                        <ForecastImageDetail image={image3} data={data} city1={city1}/>
                     ):(
                         data[0].weather.description.includes('Sky') ? (
-                            <ForecastImageDetail image={image2} data={data}/>    
+                            <ForecastImageDetail image={image2} data={data} city1={city1}/>    
                         ):(
-                            <ForecastImageDetail image={image1} data={data}/>
+                            <ForecastImageDetail image={image1} data={data} city1={city1}/>
                         )
                     )
                 )
